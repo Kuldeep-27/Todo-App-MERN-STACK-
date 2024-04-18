@@ -82,45 +82,20 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:550px){
     .content-container{
         h1{
-            font-size:1.3rem;
+            font-size:1.9rem;
         }
         .todo-box{
-            width:100%;
-
             form{
-              
-                .item1{
-                    width:40%;
-                    input{
-                        padding:12px 5px;
-                        font-size:12px;
-                       
-                    }
-
-                }
-                .item2{
-                    width:40%;
-                    input{
-                        padding:12px 5px;
-                        font-size:12px;
-                       
-                    }
-
-                }
-                .item3{
-                    width:15%;
-                    input{
-                         padding:12px 5px;
-                        font-size:12px;
-                       
-                    }
+                flex-direction:column;
+                .item1,.item2,.item3{
+                    width:99%;
+                    //gap:2vh;
+                    margin:1vh auto;
                 }
             }
-           
-            
         }
     }
 }
