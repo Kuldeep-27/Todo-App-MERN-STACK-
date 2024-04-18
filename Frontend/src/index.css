@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.btn{
+  padding:14px 12px;
+  border-radius:5px;
+  cursor:pointer;
+  font-weight:bold;
+  border:none;
+  background-color:purple;
+  color:white;
+}
+
+.link{
+  text-decoration:none;
+  color:purple;
+  font-weight:bold;
+}
+
+.input-box{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+
+}
+
+.shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
